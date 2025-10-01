@@ -10,32 +10,28 @@ Ngoài ra, hệ thống cũng có thể điều khiển **máy bơm, động cơ
 
 ## 🛠️ Tech Stack
 
-### 🔹 Development Tools
+### Development Tools
 
 - **Arduino IDE**
 - **Visual Studio Code**
 
-### 🔹 Backend / Server
+### Backend / Server
 
 - **NodeJS (22.17.1)**
 - **ExpressJS**
 - **Web Service**: HTTP
 
-### 🔹 Frontend
-
-- **React (TypeScript)**
-
-### 🔹 Database & Cloud
+### Database & Cloud
 
 - **MongoDB**
 - **MongoDB Atlas**
 
-### 🔹 AI / ML
+### AI / ML
 
 - **TensorFlow.js** (inference trên Node: `@tensorflow/tfjs-node`)
 - (Tùy chọn) **TensorFlow (Python)** hoặc **PyTorch** để huấn luyện offline và convert model sang TF.js format.
 
-### 🔹 Hardware
+### Hardware
 
 - **Vi điều khiển:** ESP32
 - **Cảm biến:**
@@ -48,6 +44,41 @@ Ngoài ra, hệ thống cũng có thể điều khiển **máy bơm, động cơ
   - Động cơ DC 1 chiều
   - Linh kiện vỏ, phụ kiện khác
 - **Mạch nguyên lý:** Proteus 8
+
+## Project Structure
+
+```
+IoT/
+│
+├── Code/
+│   ├── ai/                  # Thư mục AI model (train/inference code)
+│   │    └── ...
+│   │
+│   ├── hardware/            # Code chạy trên ESP32 (C++)
+│   │    └── example.cpp     # Ví dụ code kết nối & gửi dữ liệu
+│   │
+│   └── server/              # Backend server (NodeJS + Express)
+│        ├── config/         # Cấu hình (DB connection, env)
+│        ├── controllers/    # Xử lý logic cho từng route
+│        ├── models/         # Định nghĩa schema cho MongoDB
+│        ├── node_modules/   # Thư viện cài từ npm
+│        ├── public/         # Static files (CSS, JS, images)
+│        ├── routes/         # Khai báo các API endpoint + web routes
+│        ├── templates/      # View engine (EJS templates)
+│        ├── utils/          # Các hàm tiện ích (gọi AI service, helper)
+│        ├── .env            # Config bí mật (DB URI, API key)
+│        ├── .gitignore      # File loại trừ khi push Git
+│        ├── index.js        # File chính, khởi tạo Express server
+│        ├── package.json    # Khai báo dependencies
+│        └── package-lock.json
+│
+├── Documents/               # Tài liệu báo cáo & slide
+│    ├── Báo cáo cuối kỳ.docx
+│    ├── Báo cáo giữa kỳ.docx
+│    └── slide.txt
+│
+└── README.md                # File mô tả dự án
+```
 
 ---
 
