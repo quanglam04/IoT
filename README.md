@@ -209,6 +209,8 @@ IoT/
 
 ## Result
 
+---
+
 <p align="center">
   <img src="./Code/img/kq1.png" alt="Image title_1" />
   <p align="center">Giao diện Dashboard</p>
