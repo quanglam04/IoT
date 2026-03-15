@@ -10,59 +10,94 @@ Ngoài ra, hệ thống cũng có thể điều khiển **máy bơm, động cơ
 
 ## 🛠️ Tech Stack
 
-## Development & Version Control
-
-- **Môi trường phát triển:**
-  - PlatformIO
-  - Visual Studio Code
-- **Quản lý mã nguồn:**
-  - Git/Github Server
-- **Mạch nguyên lý:**
-  - Cirkit Designer
-
-## Backend / Server & Protocol
-
-- **Core:**
-  - NodeJS
-- **Web Framework:**
-  - ExpressJS
-- **Ngôn ngữ:**
-  - TypeScript
-- **Web Protocol:**
-  - HTTP
-- **Iot Protocol:**
-  - MQTT Protocol
-- **Real-time:**
-  - Socket.io
-
-## Database & Cloud
-
-- **Databse:**
-  - MongoDB
-  - MongoDB Atlas (Cloud)
-- **MQTT Broker:**
-  - HiveMQ Cloud
-
-## AI / ML
-
-- **Core Model:**
-  - XGBoost
-
-## Hardware & Phần cứng
-
-- **Vi điều khiển:**
-  - ESP32(DevKit V1)
-- **Cảm biến:**
-  - BME280: cảm biến môi trường
-  - DHT22: cảm biến nhiệt độ, độ ẩm
-- **Thiết bị điều khiển:**
-  - Bơm nước mini 12V
-- **Module điều khiển:**
-  - Module MOSFET
-- **Nguồn:**
-  - 12V
-- **Giao diện người dùng:**
-  - ReactJS
+<table>
+  <thead>
+    <tr>
+      <th>Category</th>
+      <th>Subcategory</th>
+      <th>Technology</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="3"><strong>Development & Version Control</strong></td>
+      <td>Môi trường phát triển</td>
+      <td>PlatformIO, Visual Studio Code</td>
+    </tr>
+    <tr>
+      <td>Quản lý mã nguồn</td>
+      <td>Git/Github Server</td>
+    </tr>
+    <tr>
+      <td>Mạch nguyên lý</td>
+      <td>Cirkit Designer</td>
+    </tr>
+    <tr>
+      <td rowspan="6"><strong>Backend / Server & Protocol</strong></td>
+      <td>Core</td>
+      <td>NodeJS</td>
+    </tr>
+    <tr>
+      <td>Web Framework</td>
+      <td>ExpressJS</td>
+    </tr>
+    <tr>
+      <td>Ngôn ngữ</td>
+      <td>TypeScript</td>
+    </tr>
+    <tr>
+      <td>Web Protocol</td>
+      <td>HTTP</td>
+    </tr>
+    <tr>
+      <td>IoT Protocol</td>
+      <td>MQTT Protocol</td>
+    </tr>
+    <tr>
+      <td>Real-time</td>
+      <td>Socket.io</td>
+    </tr>
+    <tr>
+      <td rowspan="2"><strong>Database & Cloud</strong></td>
+      <td>Database</td>
+      <td>MongoDB, MongoDB Atlas (Cloud)</td>
+    </tr>
+    <tr>
+      <td>MQTT Broker</td>
+      <td>HiveMQ Cloud</td>
+    </tr>
+    <tr>
+      <td><strong>AI / ML</strong></td>
+      <td>Core Model</td>
+      <td>XGBoost</td>
+    </tr>
+    <tr>
+      <td rowspan="6"><strong>Hardware</strong></td>
+      <td>Vi điều khiển</td>
+      <td>ESP32 (DevKit V1)</td>
+    </tr>
+    <tr>
+      <td>Cảm biến</td>
+      <td>BME280, DHT22</td>
+    </tr>
+    <tr>
+      <td>Thiết bị điều khiển</td>
+      <td>Bơm nước mini 12V</td>
+    </tr>
+    <tr>
+      <td>Module điều khiển</td>
+      <td>Module MOSFET</td>
+    </tr>
+    <tr>
+      <td>Nguồn</td>
+      <td>12V</td>
+    </tr>
+    <tr>
+      <td>Giao diện người dùng</td>
+      <td>ReactJS</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Project Structure
 
