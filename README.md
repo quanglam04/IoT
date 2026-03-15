@@ -99,6 +99,8 @@ Ngoài ra, hệ thống cũng có thể điều khiển **máy bơm, động cơ
   </tbody>
 </table>
 
+---
+
 ## Project Structure
 
 ```
